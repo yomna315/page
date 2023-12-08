@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: medium;
+    background-image: linear-gradient(rgb(0,0,0,0.5)70% , rgb(0,0,0,0.5)30%)
+     , url("../imags/istockphoto-1201391712-612x612.jpg");
+    background-size: cover;
+    /* background-position: center center; */
+    /* height: 600px; */
+}
+/* start of nav1 */
+header{
+    background-image:linear-gradient(rgb(0, 0, 0, 0.5)70%, rgb(0, 0, 0, 0.5)30%)
+     ,url(../imags/macbook-apple-imac-computer-39284.jpeg);
+    background-size:cover ;
+    /* height: 330px; */
+    height: auto;
+}
+.nav1{
+    background-color:rgb(119 101 138 / 62%);
+    color: white;   
+}
+.nav1 ul{
+list-style: none; 
+color: aliceblue ;
+    overflow: auto;
+}
+.nav1 ul li{
+    display: inline-block ;
+    /* border: 1px solid rgba(237, 229, 245, 0.509); */
+    border-radius: 20px;
+    width: 16%;
+    /* overflow: wrap ; */
+}
+.nav1 ul li a{ 
+padding: 10px;
+   display: block;
+   text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    transition: .4s all; 
+    border-radius: 20px;
+    transition-timing-function: linear;
+}
+.nav1 ul li a:hover{
+    color:rgba(84, 51, 116, 0.509);
+    background-color: rgba(255, 255, 255, 0.786);
+    border: 1px solid  rgba(112, 45, 179, 0.509);
+}
+/* end of nav 1 */
+/* start of nav2 */
+.nav2{
+    /* float: center; */
+    text-align: center;
+    color: white;
+}
+header h1{
+    margin: 40px;
+    margin-bottom: 20px;
+    float: center ;
+    text-align: center;
+}
+.name {
+    margin-bottom: 20px;
+}
+.nav2 p{
+    overflow: auto
+    ;
+    margin-bottom: 25px;
+}
+.nav2 p span{
+    background-color: rgba(250, 235, 215, 0.419);
+    color: black;
+}
+.buttons{
+    margin-bottom: 40px;
+}
+.buttons button {
+width: 120px;
+height: 40px;
+border: 2px solid #643c2d87;
+background-color: antiquewhite;
+border-radius: 4px;
+transition: .2s all;
+}
+.buttons button:hover {
+cursor: pointer;
+background-color:#643c2d87 ;
+color:antiquewhite ;
+border: 2px solid antiquewhite;
+}
+/* end of nav2 */
+
+/* start of section */
+.section-features{
+    height: auto;
+}
+.addres{
+    margin: 50px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    background-color: gray;
+    height: auto;
+    justify-content: space-evenly;
+
+}
+
+.cards div{
+    background-color:white ;
+    color: black;
+    text-align: center;
+margin: 10px;
+font-size: 10px;
+padding: 20px;
+overflow: auto;
+transition: .2s all linear;
+}
+.cards div:hover{
+    transform:scaleY(1.6);
+    background-color: rgb(69, 192, 192);
+     /* border: 5px solid gray; */
+    
+}
+.cards div span{
+    color: black;
+    display: block;
+    margin: 10px;
+    font-size: 15px;
+}
+/* end of features */
+/* start of download */
+.section-download{
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5)70%, rgb(0, 0, 0, 0.5)30%)
+     ,url(../imags/istockphoto-1460755337-170667a.webp);
+     background-size:cover ;
+     height: auto;
+     text-align: center;
+     color: white;
+}
+.section-download .addres{
+    padding: 30px;
+
+}
+.section-download p{
+    padding: 0 60px ;
+margin: 20px;
+}
+.number{
+    margin: 30px;
+    font-size: large;
+    font-weight: 20px;
+    font-size: 40px;
+}
+.section-download a{
+    text-decoration: none;
+    display: block;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    border: 2px solid #865c5c;
+    border-radius: 4px;
+    /* float: center; */
+    transition: .2s all;
+}
+.section-download a:hover{
+    background-color: burlywood;
+    border: 2px solid white;
+
+}
+/* end of section-download */
+/* start of section3 */
+.section3{
+    text-align: center;
+
+}
+.information{
+    margin-bottom: 40px;
+    color: white;
+}
+form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+width: 200px;
+margin: 0 auto;
+text-align: center;
+color: white;
+margin-bottom: 40px;
+}
+input , textarea{
+    height: 30px;
+border: none;
+    background-color: #22597200;
+    border-bottom: 3px solid white;
+}
+#send{
+    width: 100px;
+      transition: .2s all ; 
+}
+#send:hover{
+    background-color: white;
+color: black;
+border:2px solid paleturquoise ;
+}
+textarea{
+height: 70px;
+}
+input:focus{
+border: 3px solid white;
+}
+.links{
+    margin-bottom:30px ;
+
+}
+
+.links a{
+        text-decoration: none;
+color: black;
+    margin-right: 20px;
+    /* margin-bottom: 30px; */
+}
+/*  */
+/*  */
+footer{
+    background-color: white;
+    color: black;
+    height: 20px;
+    border-radius: 5px;
+
+}
+@media (max-width:560px){
+    .nav1 ul li{
+        display: grid;
+    text-align: center;
+}
+.nav1 ul li a{
+text-align: center;
+}
+}
+@media (max-width:400px){
+.cards{
+    display: block;
+    padding: 10px;
+}
+}
+/* 
+زرار الجوجل بلاي مش راضي يجي فى النص 
+لما يخلص سيكشن مثلا ببقى عايزه اعمله بال +
+margin 
+مش بيرضي ياخد الصوره ف مارجن معاه
+وفى ميديا كويري  كلام مش بيجي فى النص سواء بالجرد و فليكس 
+*/
